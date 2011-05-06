@@ -1,0 +1,110 @@
+<?xml version="1.0" standalone="yes"?>
+<!DOCTYPE database SYSTEM "file:///System/Library/DTDs/CoreData.dtd">
+
+<database>
+    <databaseInfo>
+        <version>134481920</version>
+        <UUID>FF4FA1CA-4295-45FD-BADC-D07E6DCF7003</UUID>
+        <nextObjectID>111</nextObjectID>
+        <metadata>
+            <plist version="1.0">
+                <dict>
+                    <key>NSPersistenceFrameworkVersion</key>
+                    <integer>251</integer>
+                    <key>NSStoreModelVersionHashes</key>
+                    <dict>
+                        <key>Asset</key>
+                        <data>
+		tyQotsO8NDvt1XE0n7ISUiSHKjen9suD2Y4EXGRd56I=
+		</data>
+                        <key>Folder</key>
+                        <data>
+		6AflOHiDpCFdpGAdI0h5t/eykc0B/9DCQLuGcURzmWI=
+		</data>
+                        <key>List</key>
+                        <data>
+		f4nmFsXfFk8V4CSJFMVZeV0UVaEd8d49csHd+yfBOO4=
+		</data>
+                        <key>Search</key>
+                        <data>
+		/Di3N1cVqPFGCxVmoUJ3wQ51ctkJsx+xJfuxAdNqToc=
+		</data>
+                        <key>Snippet</key>
+                        <data>
+		4X/rsY/TA70Pj9wVlkKWOTV5xo34weRxc8LfSD+NVD8=
+		</data>
+                        <key>Tag</key>
+                        <data>
+		tynbpfPyYUACFlBsnCbwUvDeu/vffT4ux8pptcOescY=
+		</data>
+                    </dict>
+                    <key>NSStoreModelVersionHashesVersion</key>
+                    <integer>3</integer>
+                    <key>NSStoreModelVersionIdentifiers</key>
+                    <array></array>
+                </dict>
+            </plist>
+        </metadata>
+    </databaseInfo>
+    <object type="SNIPPET" id="z102">
+        <attribute name="name" type="string">Google Analytics (Optimized)</attribute>
+        <attribute name="modified" type="date">326343394.16090202331542968750</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z105"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z106 z104"></relationship>
+    </object>
+    <object type="SEARCH" id="z103">
+        <attribute name="sort" type="int16">-1</attribute>
+        <attribute name="name" type="string">All Snippets</attribute>
+        <attribute name="expanded" type="bool">0</attribute>
+        <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER"></relationship>
+    </object>
+    <object type="TAG" id="z104">
+        <attribute name="name" type="string">javascript</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z108 z102"></relationship>
+    </object>
+    <object type="ASSET" id="z105">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">google-analytics.html</attribute>
+        <attribute name="notes" type="string">Optimized Google Analytics tracking code.</attribute>
+        <attribute name="content" type="binary">PHNjcmlwdD52YXIgX2dhcT1bWyJfc2V0QWNjb3VudCIsIl9fQUNDT1VOVF9fIl0sWyJfc2V0RG9t
+YWluTmFtZSIsICJfX0RPTUFJTl9fIl0sWyJfdHJhY2tQYWdldmlldyJdXTsoZnVuY3Rpb24oZCx0KXt2YXIgZz1kLmNyZWF0ZUVsZW1lbnQodCkscz1kLmdldEVsZW1lbnRzQnlUYWdOYW1lKHQpWzBdO2cuYXN5bmM9MTtnLnNyYz0oImh0dHBzOiI9PWxvY2F0aW9uLnByb3RvY29sPyIvL3NzbCI6Ii8vd3d3IikrIi5nb29nbGUtYW5hbHl0aWNzLmNvbS9nYS5qcyI7cy5wYXJlbnROb2RlLmluc2VydEJlZm9yZShnLHMpfShkb2N1bWVudCwic2NyaXB0IikpOzwvc2NyaXB0Pg==
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z102"></relationship>
+    </object>
+    <object type="TAG" id="z106">
+        <attribute name="name" type="string">google</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z102"></relationship>
+    </object>
+    <object type="TAG" id="z107">
+        <attribute name="name" type="string">html5</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z108"></relationship>
+    </object>
+    <object type="SNIPPET" id="z108">
+        <attribute name="name" type="string">Input Placeholder Coffee-Script</attribute>
+        <attribute name="modified" type="date">326343680.55514001846313476562</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z110"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z107 z109 z104 z111"></relationship>
+    </object>
+    <object type="TAG" id="z109">
+        <attribute name="name" type="string">html</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z108"></relationship>
+    </object>
+    <object type="ASSET" id="z110">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.txt</attribute>
+        <attribute name="notes" type="string">Uses Modernizr to check for HTML5 features.</attribute>
+        <attribute name="content" type="binary">cGxhY2Vob2xkZXIgICA9ICJfX1BMQUNFSE9MREVSX18iCnNlYXJjaGJveCAgICAgPSAkKCJfX0RP
+TUVMRU1FTlRfXyIpCgppZiBNb2Rlcm5penIuaW5wdXQucGxhY2Vob2xkZXIKICAgIHNlYXJjaGJveC5hdHRyKCJwbGFjZWhvbGRlciIsIHBsYWNlaG9sZGVyKQogICAgZWxzZQogICAgICAgIHNlYXJjaGJveC52YWwocGxhY2hvbGRlcikuY3NzKCJjb2xvciIsICIjY2NjIikKICAgICAgICBzZWFyY2hib3guZm9jdXMgLT4KICAgICAgICAgICAgaWYgc2VhcmNoYm94LnZhbCgpIGlzIHBsYWNlaG9sZGVyCiAgICAgICAgICAgICAgICBzZWFyY2hib3gudmFsKCcnKS5jc3MoImNvbG9yIiwgImJsYWNrIikKCiAgICAgICAgc2VhcmNoYm94LmJsdXIgLT4KICAgICAgICAgICAgaWYgc2VhcmNoYm94LnZhbCgpIGlzICcnIG9yIHNlYXJjaGJveC52YWwoKSBpcyBOVUxMCiAgICAgICAgICAgICAgICBzZWFyY2hib3gudmFsKHBsYWNlaG9sZGVyKS5jc3MoImNvbG9yIiwgIiNjY2MiKQ==
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z108"></relationship>
+    </object>
+    <object type="TAG" id="z111">
+        <attribute name="name" type="string">coffee-script</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z108"></relationship>
+    </object>
+</database>
