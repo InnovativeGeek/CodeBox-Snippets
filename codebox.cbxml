@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>FF4FA1CA-4295-45FD-BADC-D07E6DCF7003</UUID>
-        <nextObjectID>111</nextObjectID>
+        <nextObjectID>126</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -84,11 +84,11 @@ YWluTmFtZSIsICJfX0RPTUFJTl9fIl0sWyJfdHJhY2tQYWdldmlldyJdXTsoZnVuY3Rpb24oZCx0KXt2
     </object>
     <object type="SNIPPET" id="z108">
         <attribute name="name" type="string">Input Placeholder Coffee-Script</attribute>
-        <attribute name="modified" type="date">326343680.55514001846313476562</attribute>
+        <attribute name="modified" type="date">326561945.98000997304916381836</attribute>
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z110"></relationship>
-        <relationship name="tags" type="0/0" destination="TAG" idrefs="z107 z109 z104 z111"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z111 z107 z109 z104 z112"></relationship>
     </object>
     <object type="TAG" id="z109">
         <attribute name="name" type="string">html</attribute>
@@ -106,5 +106,91 @@ TUVMRU1FTlRfXyIpCgppZiBNb2Rlcm5penIuaW5wdXQucGxhY2Vob2xkZXIKICAgIHNlYXJjaGJveC5h
     <object type="TAG" id="z111">
         <attribute name="name" type="string">coffee-script</attribute>
         <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z108"></relationship>
+    </object>
+    <object type="TAG" id="z112">
+        <attribute name="name" type="string">jquery</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z108 z119"></relationship>
+    </object>
+    <object type="ASSET" id="z113">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.sh</attribute>
+        <attribute name="notes" type="string">Tweet using CURL</attribute>
+        <attribute name="content" type="binary">Y3VybCAtdSB1c2VyOnBhc3MgLWQgc3RhdHVzPSJUd2VldGluZyBmcm9tIHRoZSBzaGVsbCIgaHR0
+cDovL3R3aXR0ZXIuY29tL3N0YXR1c2VzL3VwZGF0ZS54bWw=
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z121"></relationship>
+    </object>
+    <object type="TAG" id="z114">
+        <attribute name="name" type="string">UI</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z119"></relationship>
+    </object>
+    <object type="TAG" id="z115">
+        <attribute name="name" type="string">shell</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z121"></relationship>
+    </object>
+    <object type="ASSET" id="z116">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.js</attribute>
+        <attribute name="content" type="binary">JChkb2N1bWVudCkucmVhZHkoZnVuY3Rpb24oJCkgewogICAgICAgJCgnI2FjY29yZGlvbiBkZCcp
+LmhpZGUoKTsKICAgICAgICQoJyNhY2NvcmRpb24gZHQgYScpLmNsaWNrKGZ1bmN0aW9uKCl7CiAgICAgICAgICAgICAgICQoJyNhY2NvcmRpb24gZGQnKS5zbGlkZVVwKCk7CiAgICAgICAgICAgICAgICQodGhpcykucGFyZW50KCkubmV4dCgpLnNsaWRlRG93bigpOwogICAgICAgICAgICAgICByZXR1cm4gZmFsc2U7CiAgICAgICB9KTsKfSk7
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z119"></relationship>
+    </object>
+    <object type="TAG" id="z117">
+        <attribute name="name" type="string">twitter</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z121"></relationship>
+    </object>
+    <object type="TAG" id="z118">
+        <attribute name="name" type="string">curl</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z121"></relationship>
+    </object>
+    <object type="SNIPPET" id="z119">
+        <attribute name="name" type="string">jQuery Simple Accordian</attribute>
+        <attribute name="modified" type="date">326574822.84320598840713500977</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z116"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z112 z120 z114"></relationship>
+    </object>
+    <object type="TAG" id="z120">
+        <attribute name="name" type="string">accordian</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z119"></relationship>
+    </object>
+    <object type="SNIPPET" id="z121">
+        <attribute name="name" type="string">Tweet From the Shell</attribute>
+        <attribute name="modified" type="date">326574153.99982202053070068359</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z113"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z117 z115 z118"></relationship>
+    </object>
+    <object type="TAG" id="z122">
+        <attribute name="name" type="string">accessibility</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z125"></relationship>
+    </object>
+    <object type="ASSET" id="z123">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.css</attribute>
+        <attribute name="notes" type="string">Hide element visually, but allow screen readers to find it</attribute>
+        <attribute name="content" type="binary">LmFjY2Vzc2liaWxpdHkKICAgIGNsaXA6IHJlY3QoMXB4IDFweCAxcHggMXB4KQogICAgcG9zaXRp
+b246IGFic29sdXRlICFpbXBvcnRhbnQKICAgIGxlZnQ6IC05OTllbQo=
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z125"></relationship>
+    </object>
+    <object type="TAG" id="z124">
+        <attribute name="name" type="string">css</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z125"></relationship>
+    </object>
+    <object type="SNIPPET" id="z125">
+        <attribute name="name" type="string">Accessible Hide</attribute>
+        <attribute name="modified" type="date">326575055.27337098121643066406</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z123"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z124 z122"></relationship>
+    </object>
+    <object type="TAG" id="z126">
+        <attribute name="name" type="string">accessiblity</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
     </object>
 </database>
