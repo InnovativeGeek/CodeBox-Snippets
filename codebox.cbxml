@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>FF4FA1CA-4295-45FD-BADC-D07E6DCF7003</UUID>
-        <nextObjectID>126</nextObjectID>
+        <nextObjectID>135</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -63,7 +63,7 @@
     </object>
     <object type="TAG" id="z104">
         <attribute name="name" type="string">javascript</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z108 z102"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z102 z127 z131 z108 z134"></relationship>
     </object>
     <object type="ASSET" id="z105">
         <attribute name="sort" type="int32">-1</attribute>
@@ -92,7 +92,7 @@ YWluTmFtZSIsICJfX0RPTUFJTl9fIl0sWyJfdHJhY2tQYWdldmlldyJdXTsoZnVuY3Rpb24oZCx0KXt2
     </object>
     <object type="TAG" id="z109">
         <attribute name="name" type="string">html</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z108"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z127 z108"></relationship>
     </object>
     <object type="ASSET" id="z110">
         <attribute name="sort" type="int32">-1</attribute>
@@ -109,7 +109,7 @@ TUVMRU1FTlRfXyIpCgppZiBNb2Rlcm5penIuaW5wdXQucGxhY2Vob2xkZXIKICAgIHNlYXJjaGJveC5h
     </object>
     <object type="TAG" id="z112">
         <attribute name="name" type="string">jquery</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z108 z119"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z119 z131 z108"></relationship>
     </object>
     <object type="ASSET" id="z113">
         <attribute name="sort" type="int32">-1</attribute>
@@ -192,5 +192,67 @@ b246IGFic29sdXRlICFpbXBvcnRhbnQKICAgIGxlZnQ6IC05OTllbQo=
     <object type="TAG" id="z126">
         <attribute name="name" type="string">accessiblity</attribute>
         <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="SNIPPET" id="z127">
+        <attribute name="name" type="string">Firebug Lite</attribute>
+        <attribute name="modified" type="date">326603412.57896602153778076172</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z133"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z128 z135 z109 z104"></relationship>
+    </object>
+    <object type="TAG" id="z128">
+        <attribute name="name" type="string">firebug</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z127"></relationship>
+    </object>
+    <object type="TAG" id="z129">
+        <attribute name="name" type="string">log</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z134"></relationship>
+    </object>
+    <object type="ASSET" id="z130">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.js</attribute>
+        <attribute name="notes" type="string">Log method</attribute>
+        <attribute name="content" type="binary">Ly8gdXNhZ2U6IGxvZygnaW5zaWRlIGNvb2xGdW5jJyx0aGlzLGFyZ3VtZW50cyk7Ci8vIGh0dHA6
+Ly9wYXVsaXJpc2guY29tLzIwMDkvbG9nLWEtbGlnaHR3ZWlnaHQtd3JhcHBlci1mb3ItY29uc29sZWxvZy8Kd2luZG93LmxvZyA9IGZ1bmN0aW9uKCl7CiAgbG9nLmhpc3RvcnkgPSBsb2cuaGlzdG9yeSB8fCBbXTsgICAvLyBzdG9yZSBsb2dzIHRvIGFuIGFycmF5IGZvciByZWZlcmVuY2UKICBsb2cuaGlzdG9yeS5wdXNoKGFyZ3VtZW50cyk7CiAgaWYodGhpcy5jb25zb2xlKXsKICAgICAgdHJ5ewogICAgICAgIGNvbnNvbGUubG9nLmFwcGx5KGNvbnNvbGUsQXJyYXkucHJvdG90eXBlLnNsaWNlLmNhbGwoYXJndW1lbnRzKSk7CiAgICAgIH0gY2F0Y2goZSl7IGNvbnNvbGUubG9nKGFyZ3VtZW50cykgfQogIH0KfTsg
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z134"></relationship>
+    </object>
+    <object type="SNIPPET" id="z131">
+        <attribute name="name" type="string">Smooth Anchor Scrolling</attribute>
+        <attribute name="modified" type="date">326603238.90894997119903564453</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z132"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z104 z112"></relationship>
+    </object>
+    <object type="ASSET" id="z132">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.js</attribute>
+        <attribute name="content" type="binary">Ly8gc21vb3RoIHNjcm9sbGluZyB0byBpbi1wYWdlIGFuY2hvcnMuCiQuZm4uc21vb3RoU2Nyb2xs
+VG8gPSBmdW5jdGlvbihlKXsKICAgIHJldHVybiB0aGlzLmxpdmUoJ2NsaWNrJyxmdW5jdGlvbigpewogICAgICAgICQoJ2h0bWwsYm9keScpLmFuaW1hdGUoeydzY3JvbGxUb3AnOiAkKCQodGhpcykuYXR0cignaHJlZicpKS5vZmZzZXQoKS50b3AtNDArJ3B4J30pOyAvLyA0MHB4IGJ1ZmZlciB0byB0b3AuCiAgICAgICAgZS5wcmV2ZW50RGVmYXVsdCgpOwogICAgfSkKfQ==
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z131"></relationship>
+    </object>
+    <object type="ASSET" id="z133">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.html</attribute>
+        <attribute name="notes" type="string">Includes FireBug Lite</attribute>
+        <attribute name="content" type="binary">PHNjcmlwdCBzcmM9Imh0dHBzOi8vZ2V0ZmlyZWJ1Zy5jb20vZmlyZWJ1Zy1saXRlLmpzIj4gPC9z
+Y3JpcHQ+CjxzY3JpcHQ+CiAgKGZ1bmN0aW9uICgpIHsKICAgICAgaWYgKHdpbmRvdy5maXJlYnVnICYmIHdpbmRvdy5maXJlYnVnLnZlcnNpb24pIHsKICAgICAgICAgICAgc2V0VGltZW91dChmdW5jdGlvbigpeyB3aW5kb3cuZmlyZWJ1Zy5kLmNvbnNvbGUudG9nZ2xlTUwoKTsgfSwyMDApOwogICAgICB9IGVsc2UgewogICAgICAgICAgc2V0VGltZW91dChhcmd1bWVudHMuY2FsbGVlLCAxMDApCiAgICAgIH0KICB9KSgpCjwvc2NyaXB0Pg==
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z127"></relationship>
+    </object>
+    <object type="SNIPPET" id="z134">
+        <attribute name="name" type="string">Log</attribute>
+        <attribute name="modified" type="date">326603120.16988599300384521484</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z130"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z104 z129"></relationship>
+    </object>
+    <object type="TAG" id="z135">
+        <attribute name="name" type="string">debugging</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z127"></relationship>
     </object>
 </database>
