@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>FF4FA1CA-4295-45FD-BADC-D07E6DCF7003</UUID>
-        <nextObjectID>135</nextObjectID>
+        <nextObjectID>147</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -254,5 +254,71 @@ Y3JpcHQ+CjxzY3JpcHQ+CiAgKGZ1bmN0aW9uICgpIHsKICAgICAgaWYgKHdpbmRvdy5maXJlYnVnICYm
     <object type="TAG" id="z135">
         <attribute name="name" type="string">debugging</attribute>
         <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z127"></relationship>
+    </object>
+    <object type="TAG" id="z136">
+        <attribute name="name" type="string">menu</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z138"></relationship>
+    </object>
+    <object type="TAG" id="z137">
+        <attribute name="name" type="string">template</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z138"></relationship>
+    </object>
+    <object type="SNIPPET" id="z138">
+        <attribute name="name" type="string">Drupal Primary Menu Tree</attribute>
+        <attribute name="modified" type="date">326740954.43935298919677734375</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z139"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z136 z140 z141 z137"></relationship>
+    </object>
+    <object type="ASSET" id="z139">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.php</attribute>
+        <attribute name="notes" type="string">Template php function that pulls out the primary menu tree.</attribute>
+        <attribute name="content" type="binary">ICAgIGZ1bmN0aW9uIF9fVEhFTUVfX19tYWluX25hdigpIHsKICAgICAgICAvLyBRdWljayBiaXQg
+b2YgcGx1Ym1pbmcuIFRoaXMgcHVsbHMgb3V0IHRoZSBtZW51CiAgICAgICAgLy8gZnJvbSBEcnVwYWwgYW5kIHJlLXJlbmRlcnMgdGhlIHdob2xlIHNoZWJhbmcgYXMgYQogICAgICAgIC8vIHRyZWUgLS0gb3RoZXJ3aXNlIERydXBhbCB3b3VsZCBhcHBseSBpdCdzICJtYWdpYyIKICAgICAgICAvLyBhbmQgdGhlbWUgaXQgd3JvbmcgOlwKICAgICAgICAkbWVudV9uYW1lID0gdmFyaWFibGVfZ2V0KCdtZW51X3ByaW1hcnlfbGlua3Nfc291cmNlJywgJ3ByaW1hcnktbGlua3MnKTsKICAgICAgICByZXR1cm4gbWVudV90cmVlKCRtZW51X25hbWUpOwogICAgfQ==
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z138"></relationship>
+    </object>
+    <object type="TAG" id="z140">
+        <attribute name="name" type="string">drupal</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z138"></relationship>
+    </object>
+    <object type="TAG" id="z141">
+        <attribute name="name" type="string">php</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z138"></relationship>
+    </object>
+    <object type="TAG" id="z142">
+        <attribute name="name" type="string">apache</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z147"></relationship>
+    </object>
+    <object type="ASSET" id="z143">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.conf</attribute>
+        <attribute name="notes" type="string">Headers</attribute>
+        <attribute name="content" type="binary">PElmTW9kdWxlIG1vZF9zZXRlbnZpZi5jPgogIDxJZk1vZHVsZSBtb2RfaGVhZGVycy5jPgogICAg
+QnJvd3Nlck1hdGNoIE1TSUUgaWUKICAgIEhlYWRlciBzZXQgWC1VQS1Db21wYXRpYmxlICJJRT1FZGdlLGNocm9tZT0xIiBlbnY9aWUKICA8L0lmTW9kdWxlPgo8L0lmTW9kdWxlPg==
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z147"></relationship>
+    </object>
+    <object type="TAG" id="z144">
+        <attribute name="name" type="string">headers</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z147"></relationship>
+    </object>
+    <object type="TAG" id="z145">
+        <attribute name="name" type="string">msie</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="TAG" id="z146">
+        <attribute name="name" type="string">internet explorer</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z147"></relationship>
+    </object>
+    <object type="SNIPPET" id="z147">
+        <attribute name="name" type="string">Use Latest IE using Apache HTAccess</attribute>
+        <attribute name="modified" type="date">326741395.09125798940658569336</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z143"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z146 z142 z144"></relationship>
     </object>
 </database>
