@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>FF4FA1CA-4295-45FD-BADC-D07E6DCF7003</UUID>
-        <nextObjectID>147</nextObjectID>
+        <nextObjectID>151</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -179,7 +179,7 @@ b246IGFic29sdXRlICFpbXBvcnRhbnQKICAgIGxlZnQ6IC05OTllbQo=
     </object>
     <object type="TAG" id="z124">
         <attribute name="name" type="string">css</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z125"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z125 z148"></relationship>
     </object>
     <object type="SNIPPET" id="z125">
         <attribute name="name" type="string">Accessible Hide</attribute>
@@ -320,5 +320,29 @@ QnJvd3Nlck1hdGNoIE1TSUUgaWUKICAgIEhlYWRlciBzZXQgWC1VQS1Db21wYXRpYmxlICJJRT1FZGdl
         <relationship name="list" type="1/1" destination="LIST"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z143"></relationship>
         <relationship name="tags" type="0/0" destination="TAG" idrefs="z146 z142 z144"></relationship>
+    </object>
+    <object type="SNIPPET" id="z148">
+        <attribute name="name" type="string">CSS For Webkit Scrollbars</attribute>
+        <attribute name="modified" type="date">326921414.95219200849533081055</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z151"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z124 z150 z149"></relationship>
+    </object>
+    <object type="TAG" id="z149">
+        <attribute name="name" type="string">webkit</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z148"></relationship>
+    </object>
+    <object type="TAG" id="z150">
+        <attribute name="name" type="string">scrollbars</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z148"></relationship>
+    </object>
+    <object type="ASSET" id="z151">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.css</attribute>
+        <attribute name="content" type="binary">LyogRm9yIHRoZSAiaW5zZXQiIGxvb2sgb25seSAqLwpodG1sIHsKICAgIG92ZXJmbG93OiBhdXRv
+Owp9CmJvZHkgewogICAgcG9zaXRpb246IGFic29sdXRlOwogICAgdG9wOiAyMHB4OwogICAgbGVmdDogMjBweDsKICAgIGJvdHRvbTogMjBweDsKICAgIHJpZ2h0OiAyMHB4OwogICAgcGFkZGluZzogMzBweDsgCiAgICBvdmVyZmxvdy15OiBzY3JvbGw7CiAgICBvdmVyZmxvdy14OiBoaWRkZW47Cn0KCi8qIExldCdzIGdldCB0aGlzIHBhcnR5IHN0YXJ0ZWQgKi8KOjotd2Via2l0LXNjcm9sbGJhciB7CiAgICB3aWR0aDogMTJweDsKfQogCi8qIFRyYWNrICovCjo6LXdlYmtpdC1zY3JvbGxiYXItdHJhY2sgewogICAgLXdlYmtpdC1ib3gtc2hhZG93OiBpbnNldCAwIDAgNnB4IHJnYmEoMCwwLDAsMC4zKTsgCiAgICAtd2Via2l0LWJvcmRlci1yYWRpdXM6IDEwcHg7CiAgICBib3JkZXItcmFkaXVzOiAxMHB4Owp9CiAKLyogSGFuZGxlICovCjo6LXdlYmtpdC1zY3JvbGxiYXItdGh1bWIgewogICAgLXdlYmtpdC1ib3JkZXItcmFkaXVzOiAxMHB4OwogICAgYm9yZGVyLXJhZGl1czogMTBweDsKICAgIGJhY2tncm91bmQ6IHJnYmEoMjU1LDAsMCwwLjgpOyAKICAgIC13ZWJraXQtYm94LXNoYWRvdzogaW5zZXQgMCAwIDZweCByZ2JhKDAsMCwwLDAuNSk7IAp9Cjo6LXdlYmtpdC1zY3JvbGxiYXItdGh1bWI6d2luZG93LWluYWN0aXZlIHsKCWJhY2tncm91bmQ6IHJnYmEoMjU1LDAsMCwwLjQpOyAKfQ==
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z148"></relationship>
     </object>
 </database>
