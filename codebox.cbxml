@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>FF4FA1CA-4295-45FD-BADC-D07E6DCF7003</UUID>
-        <nextObjectID>151</nextObjectID>
+        <nextObjectID>153</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -96,7 +96,7 @@ YWluTmFtZSIsICJfX0RPTUFJTl9fIl0sWyJfdHJhY2tQYWdldmlldyJdXTsoZnVuY3Rpb24oZCx0KXt2
     </object>
     <object type="ASSET" id="z110">
         <attribute name="sort" type="int32">-1</attribute>
-        <attribute name="path" type="string">Asset.txt</attribute>
+        <attribute name="path" type="string">Asset.coffee</attribute>
         <attribute name="notes" type="string">Uses Modernizr to check for HTML5 features.</attribute>
         <attribute name="content" type="binary">cGxhY2Vob2xkZXIgICA9ICJfX1BMQUNFSE9MREVSX18iCnNlYXJjaGJveCAgICAgPSAkKCJfX0RP
 TUVMRU1FTlRfXyIpCgppZiBNb2Rlcm5penIuaW5wdXQucGxhY2Vob2xkZXIKICAgIHNlYXJjaGJveC5hdHRyKCJwbGFjZWhvbGRlciIsIHBsYWNlaG9sZGVyKQogICAgZWxzZQogICAgICAgIHNlYXJjaGJveC52YWwocGxhY2hvbGRlcikuY3NzKCJjb2xvciIsICIjY2NjIikKICAgICAgICBzZWFyY2hib3guZm9jdXMgLT4KICAgICAgICAgICAgaWYgc2VhcmNoYm94LnZhbCgpIGlzIHBsYWNlaG9sZGVyCiAgICAgICAgICAgICAgICBzZWFyY2hib3gudmFsKCcnKS5jc3MoImNvbG9yIiwgImJsYWNrIikKCiAgICAgICAgc2VhcmNoYm94LmJsdXIgLT4KICAgICAgICAgICAgaWYgc2VhcmNoYm94LnZhbCgpIGlzICcnIG9yIHNlYXJjaGJveC52YWwoKSBpcyBOVUxMCiAgICAgICAgICAgICAgICBzZWFyY2hib3gudmFsKHBsYWNlaG9sZGVyKS5jc3MoImNvbG9yIiwgIiNjY2MiKQ==
@@ -105,20 +105,11 @@ TUVMRU1FTlRfXyIpCgppZiBNb2Rlcm5penIuaW5wdXQucGxhY2Vob2xkZXIKICAgIHNlYXJjaGJveC5h
     </object>
     <object type="TAG" id="z111">
         <attribute name="name" type="string">coffee-script</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z108"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z108 z153"></relationship>
     </object>
     <object type="TAG" id="z112">
         <attribute name="name" type="string">jquery</attribute>
         <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z119 z131 z108"></relationship>
-    </object>
-    <object type="ASSET" id="z113">
-        <attribute name="sort" type="int32">-1</attribute>
-        <attribute name="path" type="string">Asset.sh</attribute>
-        <attribute name="notes" type="string">Tweet using CURL</attribute>
-        <attribute name="content" type="binary">Y3VybCAtdSB1c2VyOnBhc3MgLWQgc3RhdHVzPSJUd2VldGluZyBmcm9tIHRoZSBzaGVsbCIgaHR0
-cDovL3R3aXR0ZXIuY29tL3N0YXR1c2VzL3VwZGF0ZS54bWw=
-</attribute>
-        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z121"></relationship>
     </object>
     <object type="TAG" id="z114">
         <attribute name="name" type="string">UI</attribute>
@@ -126,7 +117,7 @@ cDovL3R3aXR0ZXIuY29tL3N0YXR1c2VzL3VwZGF0ZS54bWw=
     </object>
     <object type="TAG" id="z115">
         <attribute name="name" type="string">shell</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z121"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
     </object>
     <object type="ASSET" id="z116">
         <attribute name="sort" type="int32">-1</attribute>
@@ -138,11 +129,11 @@ LmhpZGUoKTsKICAgICAgICQoJyNhY2NvcmRpb24gZHQgYScpLmNsaWNrKGZ1bmN0aW9uKCl7CiAgICAg
     </object>
     <object type="TAG" id="z117">
         <attribute name="name" type="string">twitter</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z121"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
     </object>
     <object type="TAG" id="z118">
         <attribute name="name" type="string">curl</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z121"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
     </object>
     <object type="SNIPPET" id="z119">
         <attribute name="name" type="string">jQuery Simple Accordian</attribute>
@@ -156,21 +147,13 @@ LmhpZGUoKTsKICAgICAgICQoJyNhY2NvcmRpb24gZHQgYScpLmNsaWNrKGZ1bmN0aW9uKCl7CiAgICAg
         <attribute name="name" type="string">accordian</attribute>
         <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z119"></relationship>
     </object>
-    <object type="SNIPPET" id="z121">
-        <attribute name="name" type="string">Tweet From the Shell</attribute>
-        <attribute name="modified" type="date">326574153.99982202053070068359</attribute>
-        <attribute name="locked" type="bool">0</attribute>
-        <relationship name="list" type="1/1" destination="LIST"></relationship>
-        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z113"></relationship>
-        <relationship name="tags" type="0/0" destination="TAG" idrefs="z117 z115 z118"></relationship>
-    </object>
     <object type="TAG" id="z122">
         <attribute name="name" type="string">accessibility</attribute>
         <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z125"></relationship>
     </object>
     <object type="ASSET" id="z123">
         <attribute name="sort" type="int32">-1</attribute>
-        <attribute name="path" type="string">Asset.css</attribute>
+        <attribute name="path" type="string">Asset.sass</attribute>
         <attribute name="notes" type="string">Hide element visually, but allow screen readers to find it</attribute>
         <attribute name="content" type="binary">LmFjY2Vzc2liaWxpdHkKICAgIGNsaXA6IHJlY3QoMXB4IDFweCAxcHggMXB4KQogICAgcG9zaXRp
 b246IGFic29sdXRlICFpbXBvcnRhbnQKICAgIGxlZnQ6IC05OTllbQo=
@@ -207,7 +190,7 @@ b246IGFic29sdXRlICFpbXBvcnRhbnQKICAgIGxlZnQ6IC05OTllbQo=
     </object>
     <object type="TAG" id="z129">
         <attribute name="name" type="string">log</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z134"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z134 z153"></relationship>
     </object>
     <object type="ASSET" id="z130">
         <attribute name="sort" type="int32">-1</attribute>
@@ -344,5 +327,22 @@ QnJvd3Nlck1hdGNoIE1TSUUgaWUKICAgIEhlYWRlciBzZXQgWC1VQS1Db21wYXRpYmxlICJJRT1FZGdl
 Owp9CmJvZHkgewogICAgcG9zaXRpb246IGFic29sdXRlOwogICAgdG9wOiAyMHB4OwogICAgbGVmdDogMjBweDsKICAgIGJvdHRvbTogMjBweDsKICAgIHJpZ2h0OiAyMHB4OwogICAgcGFkZGluZzogMzBweDsgCiAgICBvdmVyZmxvdy15OiBzY3JvbGw7CiAgICBvdmVyZmxvdy14OiBoaWRkZW47Cn0KCi8qIExldCdzIGdldCB0aGlzIHBhcnR5IHN0YXJ0ZWQgKi8KOjotd2Via2l0LXNjcm9sbGJhciB7CiAgICB3aWR0aDogMTJweDsKfQogCi8qIFRyYWNrICovCjo6LXdlYmtpdC1zY3JvbGxiYXItdHJhY2sgewogICAgLXdlYmtpdC1ib3gtc2hhZG93OiBpbnNldCAwIDAgNnB4IHJnYmEoMCwwLDAsMC4zKTsgCiAgICAtd2Via2l0LWJvcmRlci1yYWRpdXM6IDEwcHg7CiAgICBib3JkZXItcmFkaXVzOiAxMHB4Owp9CiAKLyogSGFuZGxlICovCjo6LXdlYmtpdC1zY3JvbGxiYXItdGh1bWIgewogICAgLXdlYmtpdC1ib3JkZXItcmFkaXVzOiAxMHB4OwogICAgYm9yZGVyLXJhZGl1czogMTBweDsKICAgIGJhY2tncm91bmQ6IHJnYmEoMjU1LDAsMCwwLjgpOyAKICAgIC13ZWJraXQtYm94LXNoYWRvdzogaW5zZXQgMCAwIDZweCByZ2JhKDAsMCwwLDAuNSk7IAp9Cjo6LXdlYmtpdC1zY3JvbGxiYXItdGh1bWI6d2luZG93LWluYWN0aXZlIHsKCWJhY2tncm91bmQ6IHJnYmEoMjU1LDAsMCwwLjQpOyAKfQ==
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z148"></relationship>
+    </object>
+    <object type="ASSET" id="z152">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.coffee</attribute>
+        <attribute name="notes" type="string">Simple logging in coffee script</attribute>
+        <attribute name="content" type="binary">bG9nID0gKG1zZykgLT4KICAgIGlmIHdpbmRvdy5jb25zb2xlCiAgICAgICAgY29uc29sZS5sb2co
+IiVzOiAlbyIsIG1zZywgdGhpcykKICAgIGVsc2UKICAgICAgICBhbGVydChtc2cp
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z153"></relationship>
+    </object>
+    <object type="SNIPPET" id="z153">
+        <attribute name="name" type="string">CoffeeScript Logging</attribute>
+        <attribute name="modified" type="date">330974654.09469801187515258789</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z152"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z129 z111"></relationship>
     </object>
 </database>
