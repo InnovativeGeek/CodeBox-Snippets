@@ -5,12 +5,12 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>FF4FA1CA-4295-45FD-BADC-D07E6DCF7003</UUID>
-        <nextObjectID>153</nextObjectID>
+        <nextObjectID>155</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
                     <key>NSPersistenceFrameworkVersion</key>
-                    <integer>251</integer>
+                    <integer>358</integer>
                     <key>NSStoreModelVersionHashes</key>
                     <dict>
                         <key>Asset</key>
@@ -109,7 +109,7 @@ TUVMRU1FTlRfXyIpCgppZiBNb2Rlcm5penIuaW5wdXQucGxhY2Vob2xkZXIKICAgIHNlYXJjaGJveC5h
     </object>
     <object type="TAG" id="z112">
         <attribute name="name" type="string">jquery</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z119 z131 z108"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z108 z131 z154 z119"></relationship>
     </object>
     <object type="TAG" id="z114">
         <attribute name="name" type="string">UI</attribute>
@@ -344,5 +344,21 @@ IiVzOiAlbyIsIG1zZywgdGhpcykKICAgIGVsc2UKICAgICAgICBhbGVydChtc2cp
         <relationship name="list" type="1/1" destination="LIST"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z152"></relationship>
         <relationship name="tags" type="0/0" destination="TAG" idrefs="z129 z111"></relationship>
+    </object>
+    <object type="SNIPPET" id="z154">
+        <attribute name="name" type="string">jQuery Load \u2600 Fallback</attribute>
+        <attribute name="modified" type="date">333036881.26016098260879516602</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z155"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z112"></relationship>
+    </object>
+    <object type="ASSET" id="z155">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.html</attribute>
+        <attribute name="content" type="binary">PHNjcmlwdCBzcmM9Ii8vYWpheC5nb29nbGVhcGlzLmNvbS9hamF4L2xpYnMvanF1ZXJ5LzEuNi4y
+L2pxdWVyeS5taW4uanMiPjwvc2NyaXB0Pgo8c2NyaXB0PndpbmRvdy5qUXVlcnkgfHwgZG9jdW1lbnQud3JpdGUoJzxzY3JpcHQgc3JjPSJqcy9saWJzL2pxdWVyeS0xLjYuMi5taW4uanMiPjxcL3NjcmlwdD4nKTwvc2NyaXB0Pg==
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z154"></relationship>
     </object>
 </database>
