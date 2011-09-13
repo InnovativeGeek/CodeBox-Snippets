@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>FF4FA1CA-4295-45FD-BADC-D07E6DCF7003</UUID>
-        <nextObjectID>155</nextObjectID>
+        <nextObjectID>158</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -63,7 +63,7 @@
     </object>
     <object type="TAG" id="z104">
         <attribute name="name" type="string">javascript</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z102 z127 z131 z108 z134"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z127 z158 z102 z131 z108 z134"></relationship>
     </object>
     <object type="ASSET" id="z105">
         <attribute name="sort" type="int32">-1</attribute>
@@ -109,7 +109,7 @@ TUVMRU1FTlRfXyIpCgppZiBNb2Rlcm5penIuaW5wdXQucGxhY2Vob2xkZXIKICAgIHNlYXJjaGJveC5h
     </object>
     <object type="TAG" id="z112">
         <attribute name="name" type="string">jquery</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z108 z131 z154 z119"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z158 z119 z131 z154 z108"></relationship>
     </object>
     <object type="TAG" id="z114">
         <attribute name="name" type="string">UI</attribute>
@@ -360,5 +360,26 @@ IiVzOiAlbyIsIG1zZywgdGhpcykKICAgIGVsc2UKICAgICAgICBhbGVydChtc2cp
 L2pxdWVyeS5taW4uanMiPjwvc2NyaXB0Pgo8c2NyaXB0PndpbmRvdy5qUXVlcnkgfHwgZG9jdW1lbnQud3JpdGUoJzxzY3JpcHQgc3JjPSJqcy9saWJzL2pxdWVyeS0xLjYuMi5taW4uanMiPjxcL3NjcmlwdD4nKTwvc2NyaXB0Pg==
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z154"></relationship>
+    </object>
+    <object type="ASSET" id="z156">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">asset.js</attribute>
+        <attribute name="notes" type="string">asset.js</attribute>
+        <attribute name="content" type="binary">KCBmdW5jdGlvbiggJCApIHsKICAgICQuZm4uY3JlYXRlID0gZnVuY3Rpb24oIGVsZW1lbnQsIGF0
+dHJpYnV0ZXMgKSB7CiAgICAgICAgcmV0dXJuICQoIGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoIGVsZW1lbnQgKSApLmF0dHIoIGF0dHJpYnV0ZXMgKS5wcmVwZW5kVG8oIHRoaXMgKTsKICAgIH07Cn0gKSggalF1ZXJ5ICk7CgovLyB1c2FnZToKLy8gJCjigJhib2R54oCZKS5jcmVhdGUo4oCYZGl24oCZLCB74oCYaWTigJk6J3NhbXBsZUlk4oCZLCDigJhjbGFzc+KAmTonbm9ybWFs4oCZfSkudGV4dCjigJhzYW1wbGXigJkpOw==
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z158"></relationship>
+    </object>
+    <object type="TAG" id="z157">
+        <attribute name="name" type="string">dom</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z158"></relationship>
+    </object>
+    <object type="SNIPPET" id="z158">
+        <attribute name="name" type="string">jQuery MooTools-like element creation</attribute>
+        <attribute name="modified" type="date">337639643.10321599245071411133</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z156"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z104 z157 z112"></relationship>
     </object>
 </database>
