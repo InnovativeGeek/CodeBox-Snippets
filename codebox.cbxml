@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>FF4FA1CA-4295-45FD-BADC-D07E6DCF7003</UUID>
-        <nextObjectID>160</nextObjectID>
+        <nextObjectID>166</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -63,7 +63,7 @@
     </object>
     <object type="TAG" id="z104">
         <attribute name="name" type="string">javascript</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z127 z158 z102 z131 z108 z134"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z108 z158 z162 z131 z127 z134 z102"></relationship>
     </object>
     <object type="ASSET" id="z105">
         <attribute name="sort" type="int32">-1</attribute>
@@ -105,7 +105,7 @@ TUVMRU1FTlRfXyIpCgppZiBNb2Rlcm5penIuaW5wdXQucGxhY2Vob2xkZXIKICAgIHNlYXJjaGJveC5h
     </object>
     <object type="TAG" id="z111">
         <attribute name="name" type="string">coffee-script</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z108 z153"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z162 z108 z153"></relationship>
     </object>
     <object type="TAG" id="z112">
         <attribute name="name" type="string">jquery</attribute>
@@ -381,5 +381,32 @@ LT4KCQkkKCAnaHRtbCwgYm9keScpLmFuaW1hdGUoIHsKCQkJJ3Njcm9sbFRvcCc6ICQoICQoIHRoaXMg
         <attribute name="sort" type="int32">1</attribute>
         <attribute name="path" type="string">Asset.coffee</attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z131"></relationship>
+    </object>
+    <object type="ASSET" id="z161">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.coffee</attribute>
+        <attribute name="notes" type="string">Usage:
+
+trim( "  padded string  " )
+
+This allows you to trim text from a string, using a browser built-in method first, defaulting to a regexp replace if the method doesn't exist.
+
+If you're using Underscore.string, then this is already available to you via "_.trim()"</attribute>
+        <attribute name="content" type="binary">dHJpbSA9ICggdmFsICkgLT4KICAgIGlmIFN0cmluZzo6dHJpbT8gdGhlbiB2YWwudHJpbSgpIGVs
+c2UgdmFsLnJlcGxhY2UgL15ccyt8XHMrJC9nLCAiIg==
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z162"></relationship>
+    </object>
+    <object type="SNIPPET" id="z162">
+        <attribute name="name" type="string">Trim in CoffeeScript</attribute>
+        <attribute name="modified" type="date">347470422.17065900564193725586</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z161"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z111 z104 z163"></relationship>
+    </object>
+    <object type="TAG" id="z163">
+        <attribute name="name" type="string">strings</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z162"></relationship>
     </object>
 </database>
